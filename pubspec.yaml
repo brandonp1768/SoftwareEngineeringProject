@@ -1,0 +1,50 @@
+name: test_drive
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.5.3
+  google_maps_webservice: ^0.0.19
+  location: ^5.0.0
+  image: ^4.1.7
+  firebase_core: ^2.25.4
+  firebase_auth: 4.17.8
+  provider: ^6.1.2
+  flutter_slidable: ^3.1.0
+  firebase_database: ^10.4.10
+  image_picker: ^1.0.7
+  firebase_storage: ^11.7.2
+  flutter_file_dialog: ^3.0.2
+  path_provider: ^2.1.3
+  flutter_date_pickers: ^0.4.2
+  test: ^1.24.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  integration_test: 
+    sdk: flutter
+  build_runner: ^2.0.0
+  mockito: ^5.4.0
+  firebase_auth_mocks: ^0.13.0
+  firebase_database_mocks: ^0.6.0
+  flutter_launcher_icons: 0.13.1
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/ProfilePlaceholder.jpg
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "lib/images/GymPal logo.png"
